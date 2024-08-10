@@ -753,7 +753,7 @@ GameObject:
   - component: {fileID: 5276702847038870972}
   - component: {fileID: 748535178554157173}
   m_Layer: 0
-  m_Name: smg_body
+  m_Name: sniper_body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1387,7 +1387,7 @@ GameObject:
   - component: {fileID: 5276702847701867659}
   - component: {fileID: 5276702847701867658}
   m_Layer: 0
-  m_Name: smg_charger
+  m_Name: sniper_charger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
