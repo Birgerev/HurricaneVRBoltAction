@@ -1234,7 +1234,7 @@ MonoBehaviour:
   ForwardPosition: {x: -0, y: -0, z: -0.2291}
   BackwardPosition: {x: -0, y: -0, z: -0.3502}
   ForwardSpeed: 10
-  Difficulty: 0.05
+  Difficulty: 0.03
   ImmediateReleaseWhenOpen: 1
   LockBackOverride: 1
   Type: 0
