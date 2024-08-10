@@ -13,6 +13,8 @@ TagManager:
   - UI
   - 
   - 
+  - Player
+  - DynamicPose
   - 
   - 
   - 
@@ -23,10 +25,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Grabbable
+  - Hand
   - 
   - 
   - 
