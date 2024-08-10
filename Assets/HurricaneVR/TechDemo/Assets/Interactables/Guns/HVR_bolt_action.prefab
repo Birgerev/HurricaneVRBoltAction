@@ -1325,7 +1325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Tags:
     Tags: {fileID: 11400000, guid: 0e83bcde818c784468e6c9a69d44702f, type: 2}
-    _data: 536870912
+    _data: 268435456
   Any: 1
 --- !u!1 &5276702847546315948
 GameObject:

@@ -508,7 +508,7 @@ MonoBehaviour:
   SocketOrientation: {fileID: 0}
   Tags:
     Tags: {fileID: 11400000, guid: 0e83bcde818c784468e6c9a69d44702f, type: 2}
-    _data: 536870912
+    _data: 268435456
 --- !u!114 &8010229591819673627
 MonoBehaviour:
   m_ObjectHideFlags: 0
