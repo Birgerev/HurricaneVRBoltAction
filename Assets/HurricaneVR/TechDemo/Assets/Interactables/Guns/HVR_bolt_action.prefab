@@ -1681,7 +1681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83b3fda07db74abe982337dd671606de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Settings: {fileID: 11400000, guid: 4bc70b4cae15e7845a653b3da58790e0, type: 2}
+  Settings: {fileID: 11400000, guid: 2e757127ef5897b4dac7e845a253395f, type: 2}
   UpRecoilType: 0
   UpRecoil: {fileID: 5276702847159320736}
   BackRecoil: {fileID: 5276702848049267196}
