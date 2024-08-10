@@ -1195,7 +1195,6 @@ GameObject:
   - component: {fileID: 5276702847701867703}
   - component: {fileID: 5276702847701867700}
   - component: {fileID: 5276702847701867659}
-  - component: {fileID: 5276702847701867658}
   m_Layer: 0
   m_Name: sniper_charger
   m_TagString: Untagged
@@ -1396,21 +1395,6 @@ CapsuleCollider:
   m_Height: 0.1
   m_Direction: 0
   m_Center: {x: 0.057, y: 0.038, z: 0.1659}
---- !u!114 &5276702847701867658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5276702847701867656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbf858a0f4504aa4adf9207e33864cfe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Grabbable: {fileID: 5276702847809236134}
-  DropIfReleased: 1
-  GrabRequiredIfReleased: 1
 --- !u!1 &5276702847809236153
 GameObject:
   m_ObjectHideFlags: 0
