@@ -1945,9 +1945,9 @@ MonoBehaviour:
   SlideBack: {fileID: 8300000, guid: 47628a7ae189bc84186439c9896f98e4, type: 3}
   SlideForward: {fileID: 8300000, guid: 0241cd444e12ae7449c940168d5d1989, type: 3}
   FiredVariations:
-  - {fileID: 8300000, guid: 8585bd31010ff9a4f9ea962d6c26b2f0, type: 3}
-  - {fileID: 8300000, guid: d2035cf6345d53740bd26aa9aa38a0c8, type: 3}
-  - {fileID: 8300000, guid: 6f18c00f9a7e954419cb8f1a765a3dfb, type: 3}
+  - {fileID: 8300000, guid: 5c12c8787ea2f004992f38abd0768dbe, type: 3}
+  - {fileID: 8300000, guid: 50e626ba375705346a1384eb3bae722a, type: 3}
+  - {fileID: 8300000, guid: 1ec9f2f29b5a2e1468c3511a9d3cd50e, type: 3}
   SlideBackVariations: []
   SlideForwardVariations: []
 --- !u!114 &2388021791215617730
