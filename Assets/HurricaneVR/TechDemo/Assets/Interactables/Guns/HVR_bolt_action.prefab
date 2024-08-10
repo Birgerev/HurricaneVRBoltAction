@@ -1839,13 +1839,13 @@ MonoBehaviour:
   BarrelRange: 10
   RequiresAmmo: 1
   RequiresChamberedBullet: 1
-  FireType: 2
+  FireType: 0
   BulletSpeed: 80
   AmmoEjectVelocity: 1
   MuzzleSmokeTime: 1.5
-  ChambersAfterFiring: 1
-  EjectCasingAfterFiring: 1
-  BoltPushedBackAfterEmpty: 1
+  ChambersAfterFiring: 0
+  EjectCasingAfterFiring: 0
+  BoltPushedBackAfterEmpty: 0
   UseAmmoProperties: 0
   NoAmmoRange: 40
   AddForceOnHit: 1
