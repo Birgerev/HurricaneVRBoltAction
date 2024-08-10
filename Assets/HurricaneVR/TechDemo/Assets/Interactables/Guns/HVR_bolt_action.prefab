@@ -1395,7 +1395,7 @@ CapsuleCollider:
   m_Radius: 0.04
   m_Height: 0.1
   m_Direction: 0
-  m_Center: {x: 0.06, y: 0.067416914, z: 0.17230453}
+  m_Center: {x: 0.057, y: 0.038, z: 0.1659}
 --- !u!114 &5276702847701867658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1861,7 +1861,7 @@ MonoBehaviour:
   LeftHand: 1
   RightHand: 1
   Group: -1
-  HandRotationOffset: {x: 0, y: 0, z: 0}
+  HandRotationOffset: {x: -90, y: 0, z: 0}
   HandPositionOffset: {x: 0, y: 0, z: 0}
   GrabIndicatorPosition: {fileID: 0}
   VisualGrabPoint: {fileID: 0}
