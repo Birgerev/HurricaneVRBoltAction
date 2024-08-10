@@ -1606,7 +1606,7 @@ MonoBehaviour:
   EjectCasingAfterFiring: 0
   BoltPushedBackAfterEmpty: 0
   UseAmmoProperties: 0
-  NoAmmoRange: 40
+  NoAmmoRange: 120
   AddForceOnHit: 1
   Haptics: {fileID: 11400000, guid: fb071631d7f2f714d817830329f2ff2b, type: 2}
   HapticGrabbables:
