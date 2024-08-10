@@ -1585,8 +1585,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 349764979092d63448b5cdc511f13f3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage: 25
-  Force: 10
+  Damage: 100
+  Force: 30
   Player: {fileID: 0}
   TriggerPullThreshold: 0.7
   TriggerResetThreshold: 0.6
