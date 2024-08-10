@@ -668,8 +668,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.08, y: 0.08, z: 0.08}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.08, y: 0.08, z: 0.2365761}
+  m_Center: {x: 0, y: 0, z: 0.007579498}
 --- !u!114 &5276702846866937414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1472,8 +1472,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5b6a3a6b34cc6743b0fff4f3ee25c54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ForwardPosition: {x: -0, y: 0, z: 0}
-  BackwardPosition: {x: -0, y: 0, z: -0.0577}
+  ForwardPosition: {x: -0, y: -0, z: -0.2291}
+  BackwardPosition: {x: -0, y: -0, z: -0.3502}
   ForwardSpeed: 10
   Difficulty: 0.05
   ImmediateReleaseWhenOpen: 1
@@ -1485,8 +1485,8 @@ MonoBehaviour:
   AccelerationThreshold: 2
   Grabbable: {fileID: 0}
   Bolt: {fileID: 5276702846429431431}
-  EjectPosition: {x: -0, y: 0, z: -0.0523}
-  ChamberRoundPosition: {x: -0, y: 0, z: -0.0422}
+  EjectPosition: {x: -0, y: -0, z: -0.3463}
+  ChamberRoundPosition: {x: -0, y: -0, z: -0.3292}
   AnimatedParts: []
   Released:
     m_PersistentCalls:
