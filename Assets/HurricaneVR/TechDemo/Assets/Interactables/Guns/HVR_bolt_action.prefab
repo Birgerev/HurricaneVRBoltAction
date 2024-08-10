@@ -1861,7 +1861,7 @@ MonoBehaviour:
   BulletEmitter: {fileID: 5276702847390469140}
   CasingEmitter: {fileID: 5276702846925217828}
   CockingHandle: {fileID: 5276702847701867703}
-  Bolt: {fileID: 5276702846429431431}
+  Bolt: {fileID: 9111605014581709253}
   StabilizerGrabbable: {fileID: 5276702846866937411}
   RecoilComponent: {fileID: 5276702847809236155}
   AmmoSocket: {fileID: 5276702847439803545}
