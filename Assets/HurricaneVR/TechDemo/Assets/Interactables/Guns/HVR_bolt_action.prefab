@@ -1515,7 +1515,7 @@ Transform:
   m_GameObject: {fileID: 5276702847439803544}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.0601, z: 0.0833}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1530,7 +1530,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5276702847439803544}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a13d52c8343fece4a9e5696716c06f69, type: 3}
+  m_Script: {fileID: 11500000, guid: af2a65f4bdd647958bec95376f37db27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   BeforeGrabbed:
@@ -1553,15 +1553,15 @@ MonoBehaviour:
       m_Calls: []
   _grabBag: {fileID: 0}
   GrabBags:
-  - {fileID: 5276702846339417586}
+  - {fileID: 0}
   GrabControl: 0
-  GrabDetectionType: 0
+  GrabDetectionType: 1
   CheckHandOverlap: 0
   ReleasesOnHover: 0
   InstantHandPose: 0
-  HoldType: 1
+  HoldType: 0
   AutoSpawnPrefab: {fileID: 0}
-  GrabTimeout: 2
+  GrabTimeout: 0
   GrabbableMustBeHeld: 1
   GrabsFromHand: 1
   HoverActions: []
@@ -1569,10 +1569,10 @@ MonoBehaviour:
   ParentDisablesGrab: 0
   ParentGrabbable: {fileID: 0}
   CanRemoveGrabbable: 0
-  ScaleGrabbable: 0
+  ScaleGrabbable: 1
   Size: 0
   CanGrabStabbingGrabbable: 0
-  AudioGrabbedOverride: {fileID: 8300000, guid: 0736054a8e9ce2747aebdddc920b497b, type: 3}
+  AudioGrabbedOverride: {fileID: 0}
   AudioReleasedOverride: {fileID: 0}
   AudioGrabbedFallback: {fileID: 0}
   AudioReleasedFallback: {fileID: 0}
@@ -1585,12 +1585,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   DebugScale: 0
-  Animate: 0
-  AnimationTime: 0.2
-  MagazineTravel: 0.1
-  AnimateEject: 0
-  EjectTime: 0.2
-  MagazineAxis: {fileID: 0}
+  ShotgunMagazine: {fileID: 2256777403754222697}
 --- !u!114 &737320203897010129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1605,7 +1600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Tags:
     Tags: {fileID: 11400000, guid: 0e83bcde818c784468e6c9a69d44702f, type: 2}
-    _data: 536870912
+    _data: -2147483648
   Any: 1
 --- !u!1 &5276702847546315948
 GameObject:
@@ -1946,9 +1941,9 @@ GameObject:
   - component: {fileID: 5276702847809236132}
   - component: {fileID: 5276702847809236155}
   - component: {fileID: 5276702847809236154}
-  - component: {fileID: 2388021791215617730}
   - component: {fileID: 4908430417493832062}
   - component: {fileID: 8286626065215076692}
+  - component: {fileID: 2256777403754222697}
   m_Layer: 0
   m_Name: HVR_bolt_action
   m_TagString: Untagged
@@ -2230,18 +2225,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 6f18c00f9a7e954419cb8f1a765a3dfb, type: 3}
   SlideBackVariations: []
   SlideForwardVariations: []
---- !u!114 &2388021791215617730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5276702847809236153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb5167cc14034676a2d0d91513d89cf3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &4908430417493832062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2283,6 +2266,27 @@ MonoBehaviour:
   Data: {fileID: 0}
   Force: 0
   Grabbable: {fileID: 0}
+--- !u!114 &2256777403754222697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5276702847809236153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ece64f546b4b471f9761a7aca682299f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Damage: 25
+  Force: 0
+  Player: {fileID: 0}
+  StartingCount: 1
+  MaxCount: 5
+  MaxRange: 40
+  DestroyIfEmpty: 0
+  EmptyDestroyTimer: 3
+  CurrentCount: 3
 --- !u!1 &5276702847902982228
 GameObject:
   m_ObjectHideFlags: 0
