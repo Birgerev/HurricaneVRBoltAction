@@ -1013,7 +1013,7 @@ MonoBehaviour:
   MaxVelocity: 6
   MinAngularVelocity: {x: 0, y: 8, z: 0}
   MaxAngularVelocity: {x: 0, y: 10, z: 0}
-  Gun: {fileID: 0}
+  Gun: {fileID: 5276702847809236133}
   Prefab: {fileID: 847613968714027543, guid: 3031798b975d25a4e8659bf0e5e90daa, type: 3}
   MinLife: 5
   MaxLife: 10
@@ -1599,7 +1599,7 @@ MonoBehaviour:
   MuzzleSmoke: {fileID: 0}
   ChamberedRound: {fileID: 5276702847305036237}
   ChamberedCasing: {fileID: 5276702848074213980}
-  AmmoEjectDirection: {fileID: 0}
+  AmmoEjectDirection: {fileID: 5276702846925217851}
   BulletOrigin: {fileID: 5276702848107009857}
   BulletEmitter: {fileID: 5276702847390469140}
   CasingEmitter: {fileID: 5276702846925217828}
