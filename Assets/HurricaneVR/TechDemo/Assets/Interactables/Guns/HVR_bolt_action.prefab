@@ -57,13 +57,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5276702846339417591}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.13753323, y: -0, z: -0, w: 0.9904972}
-  m_LocalPosition: {x: 0, y: -0.0661, z: 0.0792}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.062, z: 0.1417}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5276702847205117068}
-  m_LocalEulerAnglesHint: {x: -15.81, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5276702846339417586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,8 +108,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.037956823, y: 0.031910766, z: 0.08}
-  m_Center: {x: 0.00080380775, y: 0.024044545, z: 2.9658812e-10}
+  m_Size: {x: 0.037956823, y: 0.031910766, z: 0.15161608}
+  m_Center: {x: 0.00080380775, y: 0.024044545, z: 0.0028379634}
 --- !u!1 &5276702846408801423
 GameObject:
   m_ObjectHideFlags: 0
@@ -2384,7 +2384,7 @@ Transform:
   m_GameObject: {fileID: 7751698085911126202}
   serializedVersion: 2
   m_LocalRotation: {x: -0.09925305, y: -0, z: -0, w: 0.99506223}
-  m_LocalPosition: {x: 0, y: -0.0749, z: 0.078}
+  m_LocalPosition: {x: 0, y: -0.0617, z: 0.0657}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2473,8 +2473,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.07, y: 0.08, z: 0.07}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.07, y: 0.043746103, z: 0.032866262}
+  m_Center: {x: 0, y: 0.018126946, z: 0.011001185}
 --- !u!1 &7982500250328123022
 GameObject:
   m_ObjectHideFlags: 0
@@ -2504,7 +2504,7 @@ Transform:
   m_GameObject: {fileID: 7982500250328123022}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.1213, z: 0.0894}
+  m_LocalPosition: {x: 0, y: -0.0452, z: 0.1532}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2663,7 +2663,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.059158415, y: 0.1, z: 0.08244704}
+  m_Size: {x: 0.059158415, y: 0.1, z: 0.16}
   m_Center: {x: 0.0036896542, y: 0, z: -0.003516376}
 --- !u!114 &7654813095038593095
 MonoBehaviour:
