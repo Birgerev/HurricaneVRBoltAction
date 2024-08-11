@@ -59,7 +59,7 @@ namespace HurricaneVR.Framework.Weapons.Guns
         public UnityEvent ChamberRound = new UnityEvent();
 
 
-        private Transform _grabbedPositionTracker;
+        protected Transform _grabbedPositionTracker;
 
 
         /// <summary>
@@ -85,9 +85,9 @@ namespace HurricaneVR.Framework.Weapons.Guns
         private float _lockDistance;
         private bool _lockDistanceReached;
 
-        private Vector3 _previousHandPosition;
-        private Vector3 _previousVelocity;
-        private Vector3 _handAcceleration;
+        protected Vector3 _previousHandPosition;
+        protected Vector3 _previousVelocity;
+        protected Vector3 _handAcceleration;
 
         private bool _locked = true;
 
