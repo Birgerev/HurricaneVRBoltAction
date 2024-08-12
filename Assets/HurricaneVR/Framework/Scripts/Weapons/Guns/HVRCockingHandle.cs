@@ -75,7 +75,7 @@ namespace HurricaneVR.Framework.Weapons.Guns
         public Vector3 BackDirectionWorld => (MaxPositionWorld - ForwardPositionWorld).normalized;
 
         private float _chamberedRequiredDistance;
-        private bool _chamberDistanceReached;
+        protected bool _chamberDistanceReached;
 
         private float _maximumDistance;
 
