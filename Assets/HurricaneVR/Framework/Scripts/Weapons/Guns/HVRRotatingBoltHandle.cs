@@ -54,19 +54,5 @@ namespace HurricaneVR.Framework.Weapons.Guns
 
             Difficulty = IsBoltLocked ? 0 : _startingPullDifficulty;
         }
-/*
-    protected override void CheckChamberDistance(float distance)
-    {
-        print($"rotation val {_lockedValue01}");
-        //Check if bolt has been rotated closed
-        if (_lockedValue01 > .1f)
-        {
-            _chamberDistanceReached = false;
-            return;
-        }
-        
-        print($"checking regular");
-        base.CheckChamberDistance(distance);
-    }*/
     }
 }
