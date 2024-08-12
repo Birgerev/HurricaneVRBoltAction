@@ -15,8 +15,8 @@ namespace HurricaneVR.Framework.Weapons.Guns
         public float RotateDifficulty = .05f;
         public Transform rotateUp;
 
-        private float _rotationValue01;
-        private bool IsBoltLocked => _rotationValue01 < .1f;
+        [HideInInspector] public float rotationValue01;
+        private bool IsBoltLocked => rotationValue01 < .1f;
         private float _startingPullDifficulty;
         private Quaternion _startingLocalRotation;
         private Quaternion _startingLocalBoltRotation;
@@ -40,16 +40,16 @@ namespace HurricaneVR.Framework.Weapons.Guns
                                          _grabbedPositionTracker.position);
                 var localUpDirection = rotateUp.up.normalized * 10;
                 var amount = Vector3.Dot(deltaHandMovement, localUpDirection) * RotateDifficulty;
-                _rotationValue01 += amount;
-                _rotationValue01 = Mathf.Clamp01(_rotationValue01);
+                rotationValue01 += amount;
+                rotationValue01 = Mathf.Clamp01(rotationValue01);
 
                 if (Vector3.Distance(transform.position, ForwardPositionWorld) > .1f)
-                    _rotationValue01 = 1;
+                    rotationValue01 = 1;
 
                 transform.localRotation = Quaternion.Lerp(_startingLocalRotation,
-                    Quaternion.Euler(handleRotationEulerAngles), _rotationValue01);
+                    Quaternion.Euler(handleRotationEulerAngles), rotationValue01);
                 Bolt.transform.localRotation = Quaternion.Lerp(_startingLocalBoltRotation,
-                    Quaternion.Euler(boltRotationEulerAngles), _rotationValue01);
+                    Quaternion.Euler(boltRotationEulerAngles), rotationValue01);
             }
 
             Difficulty = IsBoltLocked ? 0 : _startingPullDifficulty;
