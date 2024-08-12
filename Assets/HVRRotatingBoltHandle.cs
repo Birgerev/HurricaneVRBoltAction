@@ -49,15 +49,7 @@ public class HVRRotatingBoltHandle : HVRCockingHandle
 
         Difficulty = IsBoltLocked ? 0 : _startingPullDifficulty;
     }
-
-
-    /*protected virtual void OnGrabbed(HVRHandGrabber grabber, HVRGrabbable slide)
     {
         
     }*/
-
-    protected override void OnReleased(HVRHandGrabber grabber, HVRGrabbable slide)
-    {
-        //EmptyOpen = false;
-    }
 }
