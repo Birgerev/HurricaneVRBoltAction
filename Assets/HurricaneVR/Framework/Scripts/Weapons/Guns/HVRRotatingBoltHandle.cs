@@ -13,6 +13,7 @@ namespace HurricaneVR.Framework.Weapons.Guns
         public Vector3 handleRotationEulerAngles;
         public Vector3 boltRotationEulerAngles;
         public float RotateDifficulty = .05f;
+        public float RotationCanFirePercent = .3f;
         public Transform rotateUp;
 
         [HideInInspector] public float rotationValue01;

@@ -19,7 +19,7 @@ namespace HurricaneVR.Framework.Weapons.Guns
         {
             if (CockingHandle is not HVRRotatingBoltHandle boltHandle) return true;
             //Check if rotating bolt handle is closed before we can fire
-            if (boltHandle.rotationValue01 > .1f) return false;
+            if (boltHandle.rotationValue01 > boltHandle.RotationCanFirePercent) return false;
 
             return base.CanFire();
         }
