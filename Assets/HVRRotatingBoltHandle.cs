@@ -40,8 +40,8 @@ public class HVRRotatingBoltHandle : HVRCockingHandle
             _lockedValue01 += amount;
             _lockedValue01 = Mathf.Clamp01(_lockedValue01);
 
-            //if (Vector3.Distance(transform.position, ForwardPositionWorld) > .05f)
-            //    _lockedValue01 = 1;
+            if (Vector3.Distance(transform.position, ForwardPositionWorld) > .1f)
+                _lockedValue01 = 1;
             
             transform.localRotation = Quaternion.Lerp(_startingLocalRotation, Quaternion.Euler(handleRotationEulerAngles), _lockedValue01);
             Bolt.transform.localRotation = Quaternion.Lerp(_startingLocalBoltRotation, Quaternion.Euler(boltRotationEulerAngles), _lockedValue01);
